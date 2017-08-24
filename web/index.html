@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Estiliza la pagina principal -->
+        <style>
+            
+            input[type="submit"]{
+                background-color:rgba(51,51,153,0.8);
+                color: white;
+                border-radius: 15px;
+                cursor: pointer;
+                font-size: 40px;  
+            }
+            input[type="text"]{
+                color: black;
+                border-radius: 10px;
+                cursor: pointer;
+                font-size: 40px;  
+            }
+        </style>
+    </head>
+   
+    <body>
+        <div>
+            <!--Crea un formulario que actua con el server-->
+            <form method="post" action="NewServlet">
+            <input type="text" name="Nombre"><br>
+            <input type="Submit" value="Enviar">
+            </form>
+        </div>
+    </body>
+</html>
